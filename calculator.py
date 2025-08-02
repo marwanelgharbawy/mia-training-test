@@ -7,6 +7,10 @@ def divide(x, y):
     else:
         return None
     
+def square(x, y):
+    # Implement this
+    return None
+    
 def subtract(x, y):
     return x - y
 
