@@ -6,9 +6,13 @@ def divide(x, y):
         return x / y
     else:
         return None
+    
+def subtract(x, y):
+    return x - y
 
 x = 10
-y = 0
+y = 5
 
 print("Sum is:", add(x, y))
 print("Quotient is:", divide(x, y))
+print("Difference is:", subtract(x, y))
