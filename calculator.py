@@ -7,9 +7,9 @@ def divide(x, y):
     else:
         return None
     
-def square(x):
-    return x * x
-    
+def square(x): # Only squares first number
+    return x ** 2
+
 def subtract(x, y):
     return x - y
 
