@@ -7,10 +7,9 @@ def divide(x, y):
     else:
         return None
     
-def square(x, y):
-    # Implement this
-    return None
-    
+def square(x): # Only squares first number
+    return x ** 2
+
 def subtract(x, y):
     return x - y
 
@@ -20,3 +19,4 @@ y = 5
 print("Sum is:", add(x, y))
 print("Quotient is:", divide(x, y))
 print("Difference is:", subtract(x, y))
+print("Square is:", square(x))
